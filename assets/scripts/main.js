@@ -27,3 +27,13 @@ function showContacts() {
     });
   });
 }
+
+function showEducation() {
+  $(".active").fadeOut("500", function() {
+    $(".active").removeClass("active");
+
+    $("#education").fadeIn("500", function() {
+      $("#education").addClass("active");
+    });
+  });
+}
