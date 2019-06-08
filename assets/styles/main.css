@@ -60,7 +60,6 @@ body {
   display: none;
 }
 
-
 .content {
   color: #000000;
   height: 100%;
@@ -94,6 +93,25 @@ body {
 
 .companies li {
   margin: 3em 0;
+}
+
+.badge {
+  margin: 0;
+  padding: 8px;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: #eeeeee;
+  color: 000;
+  border-color: #fff;
+}
+
+.badge-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.period {
+  margin: 1em 0;
 }
 
 p {
