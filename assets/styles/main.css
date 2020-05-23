@@ -1,6 +1,5 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
   margin: 0;
 }
 
@@ -26,48 +25,11 @@ body {
   padding: 2em 3em;
 }
 
-.sidebar ul {
-  font-size: 1.2em;
-  list-style: none;
-  margin-top: 50px;
-  padding: 0;
-  text-align: center;
-  width: 100%;
-}
-
-.sidebar li {
-  cursor: pointer;
-  padding: 0.6em 0;
-}
-
-.active {
-  display: block !important;
-}
-
-.about {
-  display: none;
-}
-
-.career {
-  display: none;
-}
-
-.contacts {
-  display: none;
-}
-
-.education {
-  display: none;
-}
-
 .content {
   color: #000000;
   height: 100%;
   margin-left: 240px;
   width: 100%;
-}
-
-.content-content {
   padding: 4em 0em;
   padding-left: 6em;
   padding-right: 40em;
@@ -86,34 +48,6 @@ body {
   border-radius: 50%;
 }
 
-.companies ul {
-  list-style: none;
-  padding: 0;
-}
-
-.companies li {
-  margin: 3em 0;
-}
-
-.badge {
-  margin: 0;
-  padding: 8px;
-  border: 1px solid;
-  border-radius: 5px;
-  background-color: #eeeeee;
-  color: 000;
-  border-color: #fff;
-}
-
-.badge-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.period {
-  margin: 1em 0;
-}
-
 p {
   letter-spacing: 0.5px;
   line-height: 22px;
@@ -121,57 +55,46 @@ p {
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-
-  .content-content {
+  .content {
+    color: #000000;
+    height: 100%;
+    margin-left: 240px;
+    width: 100%;
     padding: 4em 6em;
+    padding-left: 6em;
+    padding-right: 4em;
   }
-
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
-  .content-content {
+  .content {
+    color: #000000;
+    height: 100%;
+    margin-left: 240px;
+    width: 100%;
     padding: 4em 6em;
+    padding-left: 6em;
+    padding-right: 4em;
   }
-
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
 
+  .main {
+    display: block;
+  }
+
   .sidebar {
-    display: none;
+    background-color: #fff;
+    display: block;
+    position: relative;
+    width: auto;
   }
 
   .content {
-    background-color: rgba(0, 0, 0, 0.75);
-    background-position: top center;
-    background-image: none;
     height: initial;
     margin-left: 0;
+    padding: 2em 2em;
+    width: auto;
   }
-
-  .content-content {
-    padding: 2em 3em;
-  }
-
-  .about {
-    display: block;
-    margin-bottom: 5em;
-  }
-
-  .career {
-    display: block;
-    margin-bottom: 5em;
-  }
-
-  .contacts {
-    display: block;
-    margin-bottom: 5em;
-  }
-
-  .education {
-    display: block;
-    margin-bottom: 5em;
-  }
-
 }
